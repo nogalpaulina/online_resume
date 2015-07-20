@@ -9,8 +9,8 @@ h3,
 h4,
 h5,
 h6 {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -127,7 +127,6 @@ a {
   background-color: #4a4a4a;
 }
 
-/* TODO: Replace with image later */
 #header {
   background-color: #484848;
 }
@@ -158,6 +157,14 @@ ul {
 
 img {
   padding: 10px;
+}
+
+.project-image {
+  width: 30%;
+}
+
+.project-entry {
+  margin: 40px 0 40px 0;
 }
 
 span {
@@ -200,9 +207,15 @@ span {
   margin: 0 5%;
 }
 
-#map-div {
-  height: 400px;
+#map-section {
+  background-color: #F3F3F3;
   width: 100%;
+}
+
+#map-div {
+  margin: 0 auto;
+  height: 400px;
+  width: 80%;
   padding-bottom: 5%;
 }
 
